@@ -8,8 +8,7 @@ int main(int argc, char* argv[])
     setlocale(LC_ALL, "");
 
 	TrieNode* dictionary = new TrieNode(); // Инициализация словаря
-	string dictFileName = "words.txt"; // Файл словаря
-	loadDictionary(dictionary, dictFileName); // Загрузка словаря из файла
+	loadDictionary(dictionary, "words.txt"); // Загрузка словаря из файла
 	
 	string wordVariants = ""; // переменная для всех вариантов слов для автоподстановки
 	string versionWord; // вариант выбранного слова из предложенных автоподстановкой
