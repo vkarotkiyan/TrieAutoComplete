@@ -23,7 +23,7 @@ TrieNode* remove(TrieNode*, string, int depth = 0);
 void hasPrefix(TrieNode*, int&);
 void findMinPrefixes(TrieNode*, char[], int, string&);
 void wordSubstitution(TrieNode*, string&, string); // поиск слов для подстановки
-void wordSubstitutionInner(TrieNode*, char[], int, string&, int&, bool); // рекурсионная функция поиска слов для подстановки
+void wordSubstitutionInner(TrieNode*, char[], int, string&, int&, bool); // рекурсионная функция
 TrieNode* loadDictionary(TrieNode*, const string&); // Загрузка словаря из файла
 
 ```
